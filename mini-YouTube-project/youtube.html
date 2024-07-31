@@ -4,6 +4,9 @@
     <title> mini YouTube</title>
     <link rel="stylesheet" href="/mini-YouTube-project/styles/youtube.css">
     <link rel="stylesheet" href="/mini-YouTube-project/styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -13,12 +16,14 @@
         <img src="/mini-YouTube-project/icons/youtube-logo.svg" class="youtube-logo">
       </div>
       <div class="middle-section">
-        <input placeholder="Search" class="search">
-        <button class="search-icon">
-          <img src="/mini-YouTube-project/icons/search.svg">
+        <input class="search" placeholder="Search">
+        <button class="search-button">
+          <img src="/mini-YouTube-project/icons/search.svg" class="search-icon">
+          <div class="tooltip">Search</div>
         </button>
-        <button class="microphone">
-          <img src="/mini-YouTube-project/icons/voice-search-icon.svg">
+        <button class="microphone-button">
+          <img src="/mini-YouTube-project/icons/voice-search-icon.svg" class="microphone-icon">
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
@@ -26,6 +31,33 @@
         <img src="/mini-YouTube-project/icons/youtube-apps.svg" class="youtube-apps">
         <img src="/mini-YouTube-project/icons/notifications.svg" class="notification">
         <img src="/mini-YouTube-project/icons/profile-picture.jpg" class="profile-picture">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/mini-YouTube-project/icons/library.svg">
+        <div>Library</div>
       </div>
     </div>
   </body>
