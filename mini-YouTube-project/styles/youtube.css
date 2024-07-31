@@ -183,3 +183,24 @@
   font-family: Roboto, Arial;
   font-size: 10px;
 }
+
+.thumbnail-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+.thumbnail-profile-picture{
+  
+}
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+
